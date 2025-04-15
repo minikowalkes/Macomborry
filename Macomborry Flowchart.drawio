@@ -1,0 +1,280 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.12">
+  <diagram name="Page-1" id="QRzd6BS4V3_qqKsr6GCK">
+    <mxGraphModel dx="2380" dy="1238" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-1" value="Start" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-2" value="End" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-3" value="Initialize players&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dwFTzPuYS_YXZCNCp7RM-1" target="dwFTzPuYS_YXZCNCp7RM-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="130" as="sourcePoint" />
+            <mxPoint x="360" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-5" value="-position players at start.&lt;div&gt;-give player 3 pawns&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-6" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dwFTzPuYS_YXZCNCp7RM-3" target="dwFTzPuYS_YXZCNCp7RM-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="380" as="sourcePoint" />
+            <mxPoint x="280" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-7" value="player turn" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-9" value="Draw Card" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-10" value="If Card == 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dwFTzPuYS_YXZCNCp7RM-10" target="dwFTzPuYS_YXZCNCp7RM-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="350" as="sourcePoint" />
+            <mxPoint x="780" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-14" value="player moves selected pawn forward&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;once&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-17" value="else if card == &quot;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Sorry&quot;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dwFTzPuYS_YXZCNCp7RM-9" target="dwFTzPuYS_YXZCNCp7RM-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="300" as="sourcePoint" />
+            <mxPoint x="600" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dwFTzPuYS_YXZCNCp7RM-10" target="dwFTzPuYS_YXZCNCp7RM-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="390" as="sourcePoint" />
+            <mxPoint x="610" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dwFTzPuYS_YXZCNCp7RM-3" target="dwFTzPuYS_YXZCNCp7RM-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="280" as="sourcePoint" />
+            <mxPoint x="550" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-21" value="Player can replace another player&#39;s pawn&#39;s position, sending other player&#39;s selected pawn to start" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1220" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dwFTzPuYS_YXZCNCp7RM-17" target="dwFTzPuYS_YXZCNCp7RM-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="1360" as="sourcePoint" />
+            <mxPoint x="750" y="1310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dwFTzPuYS_YXZCNCp7RM-23" target="dwFTzPuYS_YXZCNCp7RM-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-23" value="else if card == 4" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-24" value="Player moves selected pawn back 4 spaces" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-25" value="else if card == 7" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-27" value="Player can split 7 forward space movements between 2 pawns" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-28" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dwFTzPuYS_YXZCNCp7RM-43" target="dwFTzPuYS_YXZCNCp7RM-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="525" y="590" as="sourcePoint" />
+            <mxPoint x="475" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dwFTzPuYS_YXZCNCp7RM-23" target="dwFTzPuYS_YXZCNCp7RM-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="920" y="620" as="sourcePoint" />
+            <mxPoint x="480" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dwFTzPuYS_YXZCNCp7RM-25" target="dwFTzPuYS_YXZCNCp7RM-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="890" as="sourcePoint" />
+            <mxPoint x="700" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-31" value="If Card == 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-32" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dwFTzPuYS_YXZCNCp7RM-31" target="dwFTzPuYS_YXZCNCp7RM-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="440" as="sourcePoint" />
+            <mxPoint x="780" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-33" value="player moves selected pawn forward&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;twice&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-34" value="If selected pawn positioned at start,&lt;div&gt;pawn moves forward one space&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-36" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dwFTzPuYS_YXZCNCp7RM-31" target="dwFTzPuYS_YXZCNCp7RM-43">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="420" as="sourcePoint" />
+            <mxPoint x="610" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-37" value="Player draws again" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-38" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="460" as="sourcePoint" />
+            <mxPoint x="1070" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-39" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="dwFTzPuYS_YXZCNCp7RM-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="460" as="sourcePoint" />
+            <mxPoint x="960" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-40" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="dwFTzPuYS_YXZCNCp7RM-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1070" y="460" as="sourcePoint" />
+            <mxPoint x="650" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-41" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="dwFTzPuYS_YXZCNCp7RM-34" target="dwFTzPuYS_YXZCNCp7RM-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="970" y="340" as="sourcePoint" />
+            <mxPoint x="1020" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-42" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dwFTzPuYS_YXZCNCp7RM-33" target="dwFTzPuYS_YXZCNCp7RM-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="940" y="340" as="sourcePoint" />
+            <mxPoint x="990" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-43" value="else if == 3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-45" value="Player moves selected pawn forward 3 spaces" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dwFTzPuYS_YXZCNCp7RM-48" target="dwFTzPuYS_YXZCNCp7RM-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-48" value="else if card == 5" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-49" value="Player moves selected pawn back 5 spaces" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dwFTzPuYS_YXZCNCp7RM-51" target="dwFTzPuYS_YXZCNCp7RM-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-51" value="else if card == 8" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-52" value="Player moves selected pawn back 8 spaces" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-53" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dwFTzPuYS_YXZCNCp7RM-48" target="dwFTzPuYS_YXZCNCp7RM-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="800" as="sourcePoint" />
+            <mxPoint x="510" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dwFTzPuYS_YXZCNCp7RM-58" target="dwFTzPuYS_YXZCNCp7RM-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-58" value="else if card == 10" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-59" value="Player moves selected pawn back 10 spaces" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dwFTzPuYS_YXZCNCp7RM-61" target="dwFTzPuYS_YXZCNCp7RM-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-61" value="else if card == 11" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-62" value="Player moves selected pawn back&amp;nbsp; 11 spaces" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dwFTzPuYS_YXZCNCp7RM-64" target="dwFTzPuYS_YXZCNCp7RM-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-64" value="else if card == 12" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-65" value="Player moves selected pawn back 12 spaces" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-66" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dwFTzPuYS_YXZCNCp7RM-25" target="dwFTzPuYS_YXZCNCp7RM-51">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1010" y="880" as="sourcePoint" />
+            <mxPoint x="1060" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-67" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dwFTzPuYS_YXZCNCp7RM-51" target="dwFTzPuYS_YXZCNCp7RM-58">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="950" as="sourcePoint" />
+            <mxPoint x="450" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-68" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dwFTzPuYS_YXZCNCp7RM-58" target="dwFTzPuYS_YXZCNCp7RM-61">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="1120" as="sourcePoint" />
+            <mxPoint x="500" y="1070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-69" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dwFTzPuYS_YXZCNCp7RM-61" target="dwFTzPuYS_YXZCNCp7RM-64">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="990" y="1140" as="sourcePoint" />
+            <mxPoint x="1040" y="1090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-70" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dwFTzPuYS_YXZCNCp7RM-64" target="dwFTzPuYS_YXZCNCp7RM-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="1230" as="sourcePoint" />
+            <mxPoint x="420" y="1180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.417;entryY=0.167;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dwFTzPuYS_YXZCNCp7RM-7" target="dwFTzPuYS_YXZCNCp7RM-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-72" value="If all of a player&#39;s pawns are positioned at home that player wins." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-73" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dwFTzPuYS_YXZCNCp7RM-7" target="dwFTzPuYS_YXZCNCp7RM-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="570" as="sourcePoint" />
+            <mxPoint x="210" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-74" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dwFTzPuYS_YXZCNCp7RM-2" target="dwFTzPuYS_YXZCNCp7RM-72">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="560" as="sourcePoint" />
+            <mxPoint x="270" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dwFTzPuYS_YXZCNCp7RM-75" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dwFTzPuYS_YXZCNCp7RM-7" target="dwFTzPuYS_YXZCNCp7RM-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="580" as="sourcePoint" />
+            <mxPoint x="200" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
