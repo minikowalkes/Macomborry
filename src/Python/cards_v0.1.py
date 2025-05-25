@@ -19,13 +19,15 @@ class Cards:
 
     def void_loop(self):
         msg = str()
-        while msg != "Q":
+        while msg.lower() != "q":
             msg = input("Would you like to draw a card? Y/N/(Q)uit: ")
-            if msg == "Y" or msg =="y":
+            if msg.lower() == "y":
                 self.draw_cards()
-            elif msg == "N" or msg =="n":
-                self.shuffle_cards()
-
+            elif msg.lower() == "n":
+                self.shuffle_cards() # actually stupid logic here.
+''' Gotta add a skip turn. Too lazy to do so right now, but
+    it should take in "self.cards" current state/status and 
+    maintain it for that player when they skip the turn.'''
 
 player_obj = Cards()
 player_obj.void_loop()
